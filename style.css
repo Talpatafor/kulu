@@ -1,0 +1,53 @@
+html{
+  font-size: 100%;
+}
+
+h1{
+  text-align: center; font-size: 1rem;
+}
+p{
+  font-size: 2rem; 
+}
+.secondh{
+  text-align: right; font-size: 3rem;
+}
+.secondp{
+  font-size: 2rem; color: green;
+}
+.mainbody{
+  display: flex;
+}
+.box{
+  width: 50%; height: 400px; margin: 2px;
+}
+.item1{
+  border: 2px solid black; overflow: scroll; border-radius: 5px;
+}
+footer{
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 550px) {
+  h1{
+    font-size: 1rem; color: green;
+  }
+  p{
+    color: red; font-size: 1rem;
+  }
+ .secondh{
+   text-align: center; font-size: 2rem;
+ }
+ .secondp{
+   font-size: 1rem; background-color: red; color: white;
+ }
+ .hello{
+   background-color: yellow;
+ }
+ .mainbody{
+  display: block;
+ }
+ .box{
+   width: 100%;
+ }
+}
